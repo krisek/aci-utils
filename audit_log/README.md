@@ -1,4 +1,4 @@
-#audit_log
+# audit_log
 
 The audit_log_dog library connects over websocket to the given fabric, maintains the subscribtion to to the audit log and dumps the received events into a log file. Two example impementations are included, the audit_log.py script connects to one fabric while the audit_log_mt.py script can download audit logs from several fabrics in a multithreaded fashion. 
 
